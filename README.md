@@ -10,7 +10,7 @@ Run this `yarn install && yarn start``
 
 1. http://localhost:3000/startlist - GET - Returns a list of the entire startlist from a file
 2. http://localhost:3000/create - POST - Create a new entry in the StartList
-3. http://localhost:3000/startlist /query - GET - Given a query Parameter, parse the StartList
+3. http://localhost:3000/query - GET - Given a query Parameter, parse the StartList
 
 ## StartList
 
