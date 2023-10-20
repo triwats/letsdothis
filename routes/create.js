@@ -26,7 +26,7 @@ router.post("/", function (req, res) {
   } catch (err) {
     console.log("ERROR: Could not parse JSON data from file");
     console.log(err);
-    res.status(500).json({ message: "Could not parse JSON data from file" });
+    res.status(500).send("Could not parse JSON data from file" );
     return;
   }
 

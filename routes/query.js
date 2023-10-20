@@ -21,7 +21,7 @@ router.get("/", (req, res, next) => {
       const parsedData = JSON.parse(data);
       console.log("INFO: Parsed JSON data from file");
 
-      // Filter based on the item where item is each JSON object
+      // Filter based on the item where item is each JSON object in the datbase
       const filteredData = parsedData.filter((item) => {
         return item.eventTitle === eventTitleFilter;
       });

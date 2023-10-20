@@ -11,14 +11,16 @@ router.get("/", function (req, res, next) {
   fs.readFile("./data/startlist.json", (err, json) => {
     if (err) {
       console.error("Error reading database file:", err);
-      res.status(500).json({ error: "Unable to read the database file" });
+      res.status(500).send("error: Unable to read the database file");
       return;
     }
 
+    // While true
     try {
       const obj = JSON.parse(json);
 
-      // Calculate the starting and ending indexes for pagination
+      // Calculate the starting and ending indexes for pagination based on page and limit
+      // Provided by client / user via Query Parameters
       const startIndex = (page - 1) * limit;
       const endIndex = startIndex + limit;
 
