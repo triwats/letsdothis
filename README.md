@@ -145,9 +145,9 @@ http://localhost:3000/startlist?limit=1000&page=1
 1. Use Typescript to achieve typing 🙏
 2. Add pagination to the query page
 3. Fix search so that we can search on any term
-4. Fix pagnination
+4. Implement CI/CD
 5. Add tests to ensure that the mocked responses are correct
 6. Ensure consistent function declarations (arrow functions only)
 7. Implement horizontally scalable Database to store the startlist
 8.  Deploy somewhere simple (Cloudflare Workers, Vercel) to host this full experience
-9. Create a simple form to input new entries
+9.  Create a simple form to input new entries
