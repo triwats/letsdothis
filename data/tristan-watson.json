@@ -1,0 +1,78 @@
+{
+  "id": "000",
+  "eventId": "e000",
+  "raceId": "r001",
+  "ticketId": "t010",
+  "eventTitle": "Run For Your Life",
+  "raceTitle": "10k",
+  "ticketTitle": "Standard Ticket",
+  "createdAt": "2022-11-27T01:20:57.371Z",
+  "updatedAt": "2023-01-21T11:15:51.236Z",
+  "fields": [
+    {
+      "id": "firstName",
+      "name": "First Name",
+      "value": "Tristan"
+    },
+    {
+      "id": "lastName",
+      "name": "Last Name",
+      "value": "Watson"
+    },
+    {
+      "id": "emailAddress",
+      "name": "Email Address",
+      "value": "tristan@triwats.com"
+    },
+    {
+      "id": "gender",
+      "name": "Gender",
+      "value": "male"
+    },
+    {
+      "id": "dateOfBirth",
+      "name": "Date of Birth",
+      "value": "1999-09-9"
+    },
+    {
+      "id": "addressLine1",
+      "name": "Address (Line 1)",
+      "value": "168 Down the Road"
+    },
+    {
+      "id": "addressLine2",
+      "name": "Address (Line 2)",
+      "value": "Apt 87B"
+    },
+    {
+      "id": "addressCity",
+      "name": "Address (City)",
+      "value": "London"
+    },
+    {
+      "id": "addressPostcode",
+      "name": "Address (Postcode)",
+      "value": "NW2 8EE"
+    },
+    {
+      "id": "addressCountry",
+      "name": "Address (Country)",
+      "value": "United Kingdom"
+    },
+    {
+      "id": "phone",
+      "name": "Phone Number",
+      "value": "+447708192027"
+    },
+    {
+      "id": "emergencyContactName",
+      "name": "Emergency Contact",
+      "value": "Alice Miller"
+    },
+    {
+      "id": "emergencyContactPhone",
+      "name": "Emergency Phone",
+      "value": "+447531101769"
+    }
+  ]
+}
