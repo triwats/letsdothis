@@ -153,3 +153,4 @@ http://localhost:3000/startlist?limit=1000&page=1
 7. Implement horizontally scalable Database to store the startlist
 8.  Deploy somewhere simple (Cloudflare Workers, Vercel) to host this full experience
 9.  Create a simple form to input new entries
+10. Implement authentication - tonnes of lovely info in the DB
